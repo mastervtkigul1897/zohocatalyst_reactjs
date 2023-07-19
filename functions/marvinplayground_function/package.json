@@ -1,0 +1,9 @@
+{
+	"name": "marvinplayground_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "marvin.gulle@crmexpert.co.il",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

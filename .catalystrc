@@ -1,0 +1,38 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "3672000000549091",
+      "name": "Marvinplayground",
+      "domain": {
+        "id": "10062635050",
+        "name": "marvinplayground-731666484.development"
+      },
+      "timezone": "Asia/Jerusalem",
+      "env": [
+        {
+          "idx": 1,
+          "id": "731666484",
+          "name": "Development",
+          "type": 3,
+          "env_status": "Active",
+          "project_details": {
+            "project_name": "Marvinplayground",
+            "id": "3672000000549091",
+            "project_type": "Live"
+          },
+          "is_default": true,
+          "action_required": false
+        }
+      ]
+    }
+  ]
+}

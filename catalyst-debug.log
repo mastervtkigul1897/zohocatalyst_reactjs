@@ -1,0 +1,448 @@
+[debug] [2023-07-17T18:06:55.308Z] : 
+[debug] [2023-07-17T18:06:55.309Z] : ----------------------------------------------------------------------
+[debug] [2023-07-17T18:06:55.309Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\marvi\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-07-17T18:06:55.310Z] : CLI Version:  1.14.1
+[debug] [2023-07-17T18:06:55.310Z] : Platform:     win32
+[debug] [2023-07-17T18:06:55.310Z] : Node Version: v18.16.1
+[debug] [2023-07-17T18:06:55.311Z] : Time:         Tue Jul 18 2023 02:06:55 GMT+0800 (Philippine Standard Time)
+[debug] [2023-07-17T18:06:55.312Z] : ----------------------------------------------------------------------
+[debug] [2023-07-17T18:06:55.312Z] : 
+[debug] [2023-07-17T18:06:56.019Z] : > authorizing via signed-in user option
+[debug] [2023-07-17T18:06:56.020Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-07-17T18:06:56.034Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/3672000000549091 
+
+[debug] [2023-07-17T18:06:56.729Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jul 2023 18:06:57 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["9659494d27=9d2ba5da8f05f3860cc6ea87dd2742b6; Path=/","ZD_CSRF_TOKEN=f39c0209-85e4-4511-957b-3507941cdf02;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f39c0209-85e4-4511-957b-3507941cdf02;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-07-17T18:06:56.735Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/3672000000549091/environment 
+
+[debug] [2023-07-17T18:06:57.358Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jul 2023 18:06:57 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["9659494d27=4a360bb6e5ad29ea36ba980b5f0decec; Path=/","ZD_CSRF_TOKEN=d204216c-e947-4832-9599-4582d62d0c2d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d204216c-e947-4832-9599-4582d62d0c2d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-07-17T18:06:57.539Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2023-07-17T18:06:57.548Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/3672000000549091/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-07-17T18:06:57.656Z] : http port : '3050' is not available. Hence port '3051' will be used instead.
+[debug] [2023-07-17T18:06:58.164Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jul 2023 18:06:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["9659494d27=3be17b21c2f6d033e87a691a4a10ac07; Path=/","ZD_CSRF_TOKEN=853b97b3-b519-426b-ae5d-ac9a5583215d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=853b97b3-b519-426b-ae5d-ac9a5583215d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-07-17T18:06:58.174Z] : unknown eol undefined hence skipping check
+[info] [2023-07-17T18:07:01.578Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-07-17T18:07:01.580Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-07-17T18:07:02.996Z] : 
+[info] [2023-07-17T18:07:02.997Z] : i server[marvinplayground_function]: URL : http://localhost:3001/server/marvinplayground_function/
+[info] [2023-07-17T18:07:02.997Z] : 
+[info] [2023-07-17T18:07:04.964Z] : [react-plugin]: Compiled successfully!
+[info] [2023-07-17T18:07:04.965Z] : [react-plugin]: 
+[info] [2023-07-17T18:07:04.966Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-07-17T18:07:04.966Z] : [react-plugin]: 
+[info] [2023-07-17T18:07:04.967Z] : [react-plugin]:   Local:            http://localhost:3001/app/
+[info] [2023-07-17T18:07:04.967Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3001/app/
+[info] [2023-07-17T18:07:04.968Z] : [react-plugin]: 
+[info] [2023-07-17T18:07:04.968Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-07-17T18:07:04.969Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-07-17T18:07:04.969Z] : [react-plugin]: 
+[info] [2023-07-17T18:07:05.144Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:07:39.954Z] : Shutting down server
+[info] [2023-07-17T18:07:39.979Z] : 
+[info] [2023-07-17T18:07:39.980Z] : √ Shutdown complete
+[debug] [2023-07-17T18:07:39.981Z] : NO ERRORS REGISTERED
+[debug] [2023-07-17T18:07:39.982Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-07-17T18:07:39.982Z] : TOTAL DURATION OF COMMAND EXEC : 43972
+[debug] [2023-07-17T18:07:39.998Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-07-17T18:07:41.188Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jul 2023 18:07:41 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["9659494d27=4a360bb6e5ad29ea36ba980b5f0decec; Path=/","ZD_CSRF_TOKEN=f802813e-60b8-4ae8-8635-2e05314112e4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f802813e-60b8-4ae8-8635-2e05314112e4;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=0422AD205979C1AD79C4169C4BA6E814; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-07-17T18:07:41.191Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-07-17T18:07:41.194Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-07-17T18:12:35.451Z] : 
+[debug] [2023-07-17T18:12:35.452Z] : ----------------------------------------------------------------------
+[debug] [2023-07-17T18:12:35.452Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\marvi\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-07-17T18:12:35.453Z] : CLI Version:  1.14.1
+[debug] [2023-07-17T18:12:35.453Z] : Platform:     win32
+[debug] [2023-07-17T18:12:35.454Z] : Node Version: v18.16.1
+[debug] [2023-07-17T18:12:35.455Z] : Time:         Tue Jul 18 2023 02:12:35 GMT+0800 (Philippine Standard Time)
+[debug] [2023-07-17T18:12:35.455Z] : ----------------------------------------------------------------------
+[debug] [2023-07-17T18:12:35.455Z] : 
+[debug] [2023-07-17T18:12:36.171Z] : > authorizing via signed-in user option
+[debug] [2023-07-17T18:12:36.172Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-07-17T18:12:36.187Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/3672000000549091 
+
+[debug] [2023-07-17T18:12:36.899Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jul 2023 18:12:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["9659494d27=4a360bb6e5ad29ea36ba980b5f0decec; Path=/","ZD_CSRF_TOKEN=2997d203-e308-4fd5-8a4c-487c08be65bc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2997d203-e308-4fd5-8a4c-487c08be65bc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-07-17T18:12:36.911Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/3672000000549091/environment 
+
+[debug] [2023-07-17T18:12:37.519Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jul 2023 18:12:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["9659494d27=4a360bb6e5ad29ea36ba980b5f0decec; Path=/","ZD_CSRF_TOKEN=fa62ae1c-72bc-47bc-83b9-adc904639d9e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=fa62ae1c-72bc-47bc-83b9-adc904639d9e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-07-17T18:12:37.697Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/3672000000549091/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-07-17T18:12:38.326Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jul 2023 18:12:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["9659494d27=4a360bb6e5ad29ea36ba980b5f0decec; Path=/","ZD_CSRF_TOKEN=ef1acb1a-635c-4161-9290-2ed2ac0357b5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ef1acb1a-635c-4161-9290-2ed2ac0357b5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-07-17T18:12:38.331Z] : unknown eol undefined hence skipping check
+[info] [2023-07-17T18:12:41.365Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-07-17T18:12:41.369Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-07-17T18:12:42.785Z] : 
+[info] [2023-07-17T18:12:42.786Z] : i server[marvinplayground_function]: URL : http://localhost:3000/server/marvinplayground_function/
+[info] [2023-07-17T18:12:42.786Z] : 
+[info] [2023-07-17T18:12:46.168Z] : [react-plugin]: Compiled successfully!
+[info] [2023-07-17T18:12:46.169Z] : [react-plugin]: 
+[info] [2023-07-17T18:12:46.169Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-07-17T18:12:46.170Z] : [react-plugin]: 
+[info] [2023-07-17T18:12:46.171Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-07-17T18:12:46.172Z] : [react-plugin]:   On Your Network:  http://192.168.254.105:3000/app/
+[info] [2023-07-17T18:12:46.172Z] : [react-plugin]: 
+[info] [2023-07-17T18:12:46.172Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-07-17T18:12:46.173Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-07-17T18:12:46.173Z] : [react-plugin]: 
+[info] [2023-07-17T18:12:46.339Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:13:21.482Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:13:24.602Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:13:24.603Z] : [react-plugin]: [eslint] 
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:13:24.603Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:13:24.604Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:13:47.260Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:13:48.380Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:13:48.391Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 3:8:  'Data' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 9:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:13:48.403Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:13:48.406Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:13:48.573Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:13:51.095Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:13:51.486Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:13:51.487Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:13:51.488Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:13:51.489Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:13:51.596Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:17:33.503Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:17:33.737Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:17:33.738Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:17:33.738Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:17:33.739Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:17:33.851Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:17:37.789Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:17:37.931Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:17:37.932Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:17:37.932Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:17:37.933Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:17:58.568Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:17:59.336Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:17:59.336Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 8:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:17:59.337Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:17:59.337Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:17:59.441Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:18:28.719Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:18:29.349Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:18:29.350Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 8:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:   'Button' is defined but never used                         @typescript-eslint/no-unused-vars
+  Line 4:18:   'Modal' is defined but never used                          @typescript-eslint/no-unused-vars
+  Line 17:10:  'showEditModal' is assigned a value but never used         @typescript-eslint/no-unused-vars
+  Line 47:9:   'handleEditSave' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 131:9:  'handleCloseEditModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:18:29.352Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:18:29.353Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:19:24.396Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:19:24.956Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:19:24.957Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 8:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:   'Button' is defined but never used                         @typescript-eslint/no-unused-vars
+  Line 4:18:   'Modal' is defined but never used                          @typescript-eslint/no-unused-vars
+  Line 17:10:  'showEditModal' is assigned a value but never used         @typescript-eslint/no-unused-vars
+  Line 47:9:   'handleEditSave' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  Line 131:9:  'handleCloseEditModal' is assigned a value but never used  @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:19:24.958Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:19:24.959Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:19:38.078Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:19:38.575Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:19:38.575Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 8:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:19:38.576Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:19:38.577Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:19:53.010Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:19:53.320Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:19:53.320Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:19:53.321Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:19:53.322Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:19:53.425Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:20:14.353Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:20:14.513Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:20:14.513Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:20:14.514Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:20:14.514Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:20:23.029Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:20:23.369Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:20:23.370Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 9:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:20:23.372Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:20:23.377Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:20:23.490Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:20:28.315Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:20:28.630Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:20:28.631Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 3:8:  'Data' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 9:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:20:28.631Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:20:28.632Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:20:28.735Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:20:46.779Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:20:46.883Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:20:46.884Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 3:8:  'Data' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 9:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:20:46.884Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:20:46.885Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:20:46.990Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:20:59.651Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:20:59.759Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:20:59.760Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 3:8:  'Data' is defined but never used                   @typescript-eslint/no-unused-vars
+  Line 9:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:20:59.761Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:20:59.762Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:20:59.872Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:21:23.413Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:21:23.741Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:21:23.742Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:21:23.743Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:21:23.745Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:21:23.941Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:21:27.127Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:21:27.242Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:21:27.243Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:21:27.244Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:21:27.245Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:21:27.348Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:21:27.357Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:21:27.465Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:21:27.465Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:21:27.466Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:21:27.467Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:21:27.575Z] : [react-plugin]: Files successfully emitted, waiting for typecheck results...
+[info] [2023-07-17T18:22:38.363Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:22:38.763Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:22:38.763Z] : [react-plugin]: [eslint] 
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:22:38.765Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:22:38.766Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:24:07.762Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:24:08.122Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:24:08.123Z] : [react-plugin]: [eslint] 
+src\App.tsx
+  Line 26:8:  'logo' is defined but never used  @typescript-eslint/no-unused-vars
+
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:24:08.124Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:24:08.125Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:26:51.428Z] : [react-plugin]: Compiling...
+[info] [2023-07-17T18:26:51.900Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-07-17T18:26:51.901Z] : [react-plugin]: [eslint] 
+src\App.tsx
+  Line 76:8:  'logo' is defined but never used  @typescript-eslint/no-unused-vars
+
+src\EditModal.tsx
+  Line 18:5:  'selectedItem' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\TableComponent.tsx
+  Line 4:10:  'Button' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 4:18:  'Modal' is defined but never used   @typescript-eslint/no-unused-vars
+[info] [2023-07-17T18:26:51.902Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-07-17T18:26:51.902Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-07-17T18:31:34.426Z] : Shutting down server
+[info] [2023-07-17T18:31:34.453Z] : 
+[info] [2023-07-17T18:31:34.454Z] : √ Shutdown complete
+[debug] [2023-07-17T18:31:34.454Z] : NO ERRORS REGISTERED
+[debug] [2023-07-17T18:31:34.455Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-07-17T18:31:34.455Z] : TOTAL DURATION OF COMMAND EXEC : 1138300
+[debug] [2023-07-17T18:31:34.470Z] : > refreshing access token <
+[debug] [2023-07-17T18:31:34.472Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-07-17T18:31:35.128Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jul 2023 18:31:35 GMT","content-type":"application/json;charset=UTF-8","content-length":"1751","connection":"close","set-cookie":["b266a5bf57=dcb92d0f99dd7421201f8dc746d54606; Path=/","iamcsr=26cb4eb9-9c40-496c-ab74-651e81711932;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=26cb4eb9-9c40-496c-ab74-651e81711932;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-07-17T18:31:35.142Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-07-17T18:31:36.529Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jul 2023 18:31:37 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["9659494d27=3be17b21c2f6d033e87a691a4a10ac07; Path=/","ZD_CSRF_TOKEN=3b553280-7614-4b1c-9d68-e93416e996df;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3b553280-7614-4b1c-9d68-e93416e996df;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=A4F79BD91A04FF5BBF7AD0A4CF136694; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-07-17T18:31:36.531Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-07-17T18:31:36.536Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
